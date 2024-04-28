@@ -1,0 +1,56 @@
+.begin {
+    font-size: 40px;
+    text-align: center;
+    color:white; 
+    background-color: #8e3dda;
+}
+
+body {
+    background-color:  rgb(61, 61, 61);
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+
+    justify-content: space-around; /* Распределяет пространство между карточками */
+    padding: 20px; /* Добавляет отступы вокруг контейнера карточек */
+}
+
+.card {
+    width: 400px;
+    height: 330px;
+    border: 1px solid rgb(207, 156, 186);
+
+    display: flex;
+    flex-direction: row;
+
+    margin: 10px; /* Добавляет пространство между карточками */
+
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.photo {
+    width: 200px;
+    height: 300px;
+    margin-left: 20px; /* Добавляет пространство между изображением и правой границей */
+    margin-right: 20px; /* Добавляет пространство между изображением и текстом */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 180px; /* Уменьшает ширину контента для более равномерного распределения места */
+    height: 250px;
+}
+
+.title_card {
+    color: wheat;
+}
+
+.text_card {
+    color: whitesmoke;
+}

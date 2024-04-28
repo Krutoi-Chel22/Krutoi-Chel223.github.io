@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(61, 61, 61);
+}
+
+
+
+.verh {
+    font-size: 40px;
+    background-color: #8e3dda;
+    text-align: center;
+    color: white;
+}
+
+.avatar {
+    transform: scale(0.75);
+    position: relative;
+    left: -200px;
+    top: 10px; 
+
+}
+
+.text  {
+    position: relative;
+    bottom: 900px;
+    font-size: 30px;
+    left: 20px;
+    color: bisque;
+    
+}
+
+.under {
+    position: relative;
+    bottom: 200px;
+}
+
+
+
+.about {
+
+    color: bisque;
+    display: flex;
+    align-items: flex-start;
+    font-size: 25px;
+    position: relative;
+    left: 600px;
+    bottom: 800px;
+    border: 1px solid rgb(207, 100, 100);
+    padding: 10px;
+    border-collapse: collapse;
+    width: 50%;
+    height: 50%;
+}
+
+.under {
+    bottom: 500px;
+    font-size: 25px;
+    color: bisque;
+}
+
+.else {
+    position: relative;
+    color: bisque;
+    font-size: 30px;
+
+
+    margin-right: 100%;
+    bottom: 500px;
+    width: 100%;
+    border: 1px solid rgb(207, 100, 100);
+}
+
+
+.container {
+    left: 100px;
+}
